@@ -41,6 +41,10 @@ app.get('/signup',(req,res)=> {
     res.render('signup')  
 })
 
+app.get("/contact",(req,res)=> {
+    res.render("contact");
+})
+
 app.post('/dem',(req,res)=> {
     
     const user = new User(req.body)
