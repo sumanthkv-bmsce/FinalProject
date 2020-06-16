@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="/css/pic.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+</head>
+      
+      <body>
+          
+        <div class="menu-toggle" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="container">  
+            
+            {{>common}}
+            <marquee direction="right" class="dir">Welcome to Mechanical page</marquee>
+            
+            <div class="button_box2">
+                <form action="/getAllMech"  class="form-wrapper-2 cf" method = "POST" onsubmit="return isValid()">
+            <input class="textHere" type="text" placeholder="Search here..." name="nameHere" required>
+            <input type="submit" class = "refreshSubmit" value="submit">
+                </form>
+            </div>
+
+            <div class="images">
+            <div class='popular'>
+            <div><h1 class="fontMe">Popular</h1>
+                <img src="/img/mech1.jpg" id="img_1"  
+                onClick="getID(this.src,'An Introduction to mechanical engineering',
+                'Mechanical engineering is an engineering discipline that combines engineering physics and mathematics principles with materials science to design, analyze, manufacture, and maintain mechanical systems. It is one of the oldest and broadest of the engineering disciplines')" value="1">
+                <img src="/img/mech2.jpg" id="img_2" 
+                onClick="getID(this.src,'Elements of mechanical engineering',
+                'It shall provide the fundamental principles of materials, fuels, Steam, I.C. Engines, compressors, hydraulic machines and transmission systems that usually exist in any process plant')" value="2">
+                <img src="/img/mech3.jpg" id="img_3" 
+                onClick="getID(this.src,'Rotordynamics',
+                'Rotordynamics. Rotordynamics, also known as rotor dynamics, is a specialized branch of applied mechanics concerned with the behavior and diagnosis of rotating structures. It is commonly used to analyze the behavior of structures ranging from jet engines and steam turbines to auto engines and computer disk storage.')" value="3">
+                <img src="/img/mech4.jpg" id="img_4" 
+                onClick="getID(this.src,'Mechanical engineering',
+                'Mechanical engineers design power-producing machines, such as electric generators, internal combustion engines, and steam and gas turbines, as well as power-using machines, such as refrigeration and air-conditioning systems. Mechanical engineers design other machines inside buildings, such as elevators and escalators')" value="4">
+                
+            </div>
+             </div>  
+            <div class="favourites">
+                <div><h1 class="fontMe">Favourites</h1>
+                <img src="/img/mech5.jpg" id="img_1" value="5" 
+                onClick="getID(this.src.'Maintenance engineering',
+                'Maintenance Engineers are responsible for the installation and maintenance of industrial equipment such as those used in the aviation, medical, and manufacturing industry. Maintenance Engineers perform routine equipment maintenance, troubleshoot issues, and make on site repairs when needed.')">
+                <img src="/img/mech6.jpg" id="img_2"
+                 onClick="getID(this.src,'Fluid mechanics and hydraulic machines',
+                 'Fluid mechanics, science concerned with the response of fluids to forces exerted upon them. It is a branch of classical physics with applications of great importance in hydraulic and aeronautical engineering, chemical engineering, meteorology, and zoology.')" value="6">
+                <img src="/img/mech7.jpg" id="img_3" 
+                onClick="getID(this.src,'Theory of machines',
+                'The subject Theory of Machines may be defined as that branch of Engineering-science, which deals with the study of relative motion between the various parts of a machine, and forces which act on them. The knowledge of this subject is very essential for an engineer in designing the various parts of a machine')" value="6">
+                <img src="/img/mech8.jpg" id="img_4" 
+                onClick="getID(this.src,'AUtomobile engineeeing',
+                'Automotive engineers work as part of a team responsible for vehicle design, development, manufacture and testing. Automotive engineers are involved in the design, manufacture, distribution, marketing, sales and after-sales care of cars (including racing cars), motorbikes and other commercial vehicles.')" value="8">
+                
+            </div>
+            </div>
+                
+                  <div class="reading">
+                <div><h1 class="fontMe">Reading</h1>
+                <img src="/img/mech9.jpg" id="img_1" value="9" 
+                onClick="getID(this.src,'Recent developments in ME',
+                '')">
+                <img src="/img/mech10.jpg" id="img_2" 
+                onClick="getID(this.src,'Mechanical vibration',
+                'Mechanical vibration is defined as the measurement of a periodic process of oscillations with respect to an equilibrium point. ... Attention will be paid to vibrating systems such as beams, strings, plates and membranes, vibration isolation, critical speeds, the balancing of rotating and reciprocating machinery.')" value="10">
+                <img src="/img/mech11.jpg" id="img_3" 
+                onClick="getID(this.src,'Basic civil and Mechanical engineering',
+                'The first, the classical field of civil engineering, deals with the planning, design, construction, and maintenance of structures and the infrastructure. ... The second is the science of mechanics and its applications to various engineering disciplines.')" value="11">
+                <img src="/img/mech12.jpg" id="img_4"
+                 onClick="getID(this.src,'Dictionary of ME',
+                 'Mechanical engineering is a branch of engineering that applies the principles of Mechanics and Materials science for analysis, design, manufacturing, and maintenance of mechanical systems. It involves the production and usage of heat and mechanical power for the design, production, and operation of machines and tools.')" value="12">
+                
+            </div>
+            </div>
+            
+          </div>
+          </div>
+          <script src="/js/mech.js"></script>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+1. Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
+https://www.amazon.in/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/9352135245/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=
+
+2.Algorithms to Live By: The Computer Science of Human Decisions
+https://www.amazon.in/Algorithms-Live-Computer-Science-Decisions/dp/0007547994/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=
+
+3.Data Structures and Algorithms Made Easy: Data Structures and Algorithmic Puzzles
+https://www.amazon.in/Data-Structures-Algorithms-Made-Easy/dp/819324527X
+
+4.HTML and CSS: Design and Build Websites
+https://www.amazon.in/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=pd_sbs_14_img_1/261-9051439-0219513?_encoding=UTF8&pd_rd_i=1118008189&pd_rd_r=8e65c3eb-49cc-418e-98e5-c7028ff06893&pd_rd_w=xEEWJ&pd_rd_wg=nawDd&pf_rd_p=21bbdc4d-873b-48c5-a88a-70e643377944&pf_rd_r=THYQASACWP158CW33DC2&psc=1&refRID=THYQASACWP158CW33DC2
+
+5.Java - The Complete Reference
+https://www.amazon.in/Java-Complete-Reference-Herbert-Schildt/dp/9387432297/ref=pd_sbs_14_t_0/261-9051439-0219513?_encoding=UTF8&pd_rd_i=9387432297&pd_rd_r=96bfbbf6-d430-4b0d-8567-aa9c1cb9b2e5&pd_rd_w=JJBYF&pd_rd_wg=i0XCD&pf_rd_p=21bbdc4d-873b-48c5-a88a-70e643377944&pf_rd_r=FJZSWA86YBDC7DXV9HHX&psc=1&refRID=FJZSWA86YBDC7DXV9HHX
+
+6. C: The Complete Reference
+https://www.amazon.in/C-Complete-Reference-Herbert-Schildt/dp/0070411832/ref=sr_1_6?keywords=learn+c&qid=1573924020&s=books&sr=1-6
+
+7. Learn Python the Hard Way
+https://www.amazon.in/Learn-Python-Hard-Way-Shaw/dp/9332582106/ref=sr_1_5?keywords=learn+python&qid=1573924147&s=books&sr=1-5
+
+8.Microprocessors and Microcontrollers Architecture, Programming and Interfacing Using 8085, 8086 and 8051
+https://www.amazon.in/Microprocessors-Microcontrollers-Architecture-Programming-Interfacing/dp/007132920X/ref=sr_1_5?keywords=8086+bharat+acharya&qid=1573924214&s=books&sr=1-5
+
+9.Hands-On Machine Learning with Scikit-Learn and Tensor Flow: Concepts, Tools, and Techniques to Build Intelligent Systems 
+https://www.amazon.in/Hands-Machine-Learning-Scikit-Learn-Tensor/dp/9352135210/ref=sr_1_1?crid=3GE6UFQ9AHP70&keywords=hands-on+machine+learning+with+scikit-learn&qid=1573924268&s=books&sprefix=learn+machine+le%2Cstripbooks%2C332&sr=1-1
+
+10.Metro 2033: The novels that inspired the bestselling games 
+https://www.amazon.in/Metro-2033-Dmitry-Glukhovsky/dp/0575086254/ref=sr_1_1?crid=3UJI79IN4OZFH&keywords=metro+2033&qid=1573924317&s=books&sprefix=metro+2033%2Cstripbooks%2C342&sr=1-1
+
+11.20,000 Leagues Under the Sea
+https://www.amazon.in/dp/9388369718/ref=sspa_dk_detail_0?psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExT0ZFNk5VTEVXR05WJmVuY3J5cHRlZElkPUEwOTYyMzkxOVgzWFVGOFM5VE9HJmVuY3J5cHRlZEFkSWQ9QTA5NjU3NjczMTJISUxYMEYxOVBSJndpZGdldE5hbWU9c3BfZGV0YWlsJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==
+
+12.Cloud Computing, A Practical Approach
+https://www.amazon.in/Cloud-Computing-Practical-Approach-Velte/dp/0070683514/ref=lp_14158183031_1_2?s=books&ie=UTF8&qid=1573924433&sr=1-2
+
+13.The Unofficial Guide to Ethical Hacking
+https://www.amazon.in/Unofficial-Guide-Ethical-Hacking/dp/1598630628/ref=sr_1_1_sspa?keywords=ethical+hacking&qid=1573924490&s=books&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzR1dUU1NaRksyNkpFJmVuY3J5cHRlZElkPUEwNzgwOTY2MkFTU1RaR1k5WjI5SSZlbmNyeXB0ZWRBZElkPUEwNzcxMzUwMTIwNjNCOVdaTlo2NyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=
+
+14.Modern Digital Electronics
+https://www.amazon.in/Modern-Digital-Electronics-R-Jain/dp/0070669112/ref=lp_14158200031_1_4?s=books&ie=UTF8&qid=1573924537&sr=1-4
+
+15.Applied Cryptography: Protocols, Algorithms and Source Code in C, 2ed
+https://www.amazon.in/Applied-Cryptography-Protocols-Algorithms-Source/dp/8126513683/ref=lp_14158164031_1_5?s=books&ie=UTF8&qid=1573924588&sr=1-5
+

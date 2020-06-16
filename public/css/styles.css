@@ -1,0 +1,57 @@
+body {
+    background-image: url(/img/d1.jpg);
+    background-size: cover;
+}
+.welcome {
+    font-family: 'Yellowtail', cursive;
+    font-size: 50px;
+}
+
+input[type=button]
+{
+    border: none;
+    width: 190px;
+    background: white;
+    color: #000;
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px;
+    line-height: 16px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input[type=button]:hover
+{
+    color: #fff;
+    background-color: black;
+}
+
+.container {
+    position: relative;
+    margin: 100px 200px 100px 200px;
+    top: 90px;
+    padding: 10px 10px 40px 10px;
+    background-color: #05ACD3;
+    opacity: 0.9;
+    display: block;
+    color: black;
+    transition: all 1s;
+} 
+    
+.container:hover {
+    transition-duration: 1s;
+    transition-property: all;
+    transform: scale(1.2,1.2); 
+    box-shadow: 7px 7px 7px 7px lightblue;
+}
+
+.folk {
+    position: relative;
+    bottom: -75px;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+
+
+

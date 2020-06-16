@@ -1,0 +1,86 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="/css/pic.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+</head>
+      
+      <body>
+          
+        <div class="menu-toggle" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="overlay"></div>
+
+        <div class="container">  
+
+            {{>common}}
+
+            <marquee direction="right" class="dir">Welcome to ECE page</marquee>
+            <div class="button_box2">
+                <form action="/getAllEce"  class="form-wrapper-2 cf" method = "POST" onsubmit="return isValid()">
+            <input class="textHere" type="text" placeholder="Search here..." name="nameHere" required>
+            <input type="submit" class = "refreshSubmit" value="submit">
+                </form>
+            </div>
+
+            <div class="images">
+            <div class='popular'>
+            <div><h1 class="fontMe">Popular</h1>
+                <img src="/img/ece1.jpg" id="img_1"
+                  onClick="getID(this.src,'Digital Electronics',
+                  'Digital electronics, digital technology or digital (electronic) circuits are electronics that operate on digital signals. In contrast, analog circuits manipulate analog signals whose performance is more subject to manufacturing tolerance, signal attenuation and noise.')" value="1">
+                <img src="/img/ece2.png" id="img_2" 
+                onClick="getID(this.src,'Analog and Digital communications',
+                'Analog Circuits and Digital Circuits is a classic way of differentiating between two types of electronic circuits based on the signals they process. To put it in simple words, Analog Circuits deals with continuous analog signals whereas Digital Circuits deals with discrete digital signals')" value="2">
+                <img src="/img/ece3.jpg" id="img_3" 
+                onClick="getID(this.src,'Industrial Communication system',
+                'A communication protocol is a set of rules that allows the transfer and exchange of data between the devices to communicate. As technological development in the field of electronics has progressed, automated control of industrial processes has been imposed on traditional production methods')" value="3">
+                <img src="/img/ece4.jpg" id="img_4"
+                 onClick="getID(this.src,'Digital Communication',
+                 'a means of digital communications that is capable of very high speeds; suitable for transmission of images or voice or video as well as data. Type of: electronic communication. communication by computer')" value="4">
+                
+            </div>
+             </div>  
+            <div class="favourites">
+                <div><h1 class="fontMe">Favourites</h1>
+                <img src="/img/ece5.jpg" id="img_1" value="5"
+                 onClick="getID(this.src,'Visible light communication',
+                 'Visible light communication (VLC) is a data communications variant which uses visible light between 400 and 800 THz (780–375 nm). ... The technology uses fluorescent lamps (ordinary lamps, not special communications devices) to transmit signals at 10 kbit/s, or LEDs for up to 500 Mbit/s over short distances.')">
+                <img src="/img/ece6.jpg" id="img_2"
+                 onClick="getID(this.src,'Electronic Communication System',
+                 'In telecommunication, communications-electronics (C-E) is the specialized field concerned with the use of electronic devices and systems for the acquisition or acceptance, processing, storage, display, analysis, protection, disposition, and transfer of information.')" value="6">
+                <img src="/img/ece7.jpg" id="img_3"
+                 onClick="getID(this.src,'Handbook on ECE',
+                 'Electronics and Communications Engineering (ECE) involves researching, designing, developing and testing of electronic equipment used in various systems. ... It also deals with the manufacturing of electronic devices, circuits, and communications equipment.')" value="6">
+                <img src="/img/ece8.jpg" id="img_4"
+                 onClick="getID(this.src,'Getting started with Electronics',
+                 'Electronics and Communications Engineering (ECE) involves researching, designing, developing and testing of electronic equipment used in various systems. ... It also deals with the manufacturing of electronic devices, circuits, and communications equipment.')" value="8">
+                
+            </div>
+            </div>
+                
+                  <div class="reading">
+                <div><h1 class="fontMe">Reading</h1>
+                <img src="/img/ece9.jpg" id="img_1" value="9"
+                 onClick="getID(this.src,'Innovations in Electronics and COmmunication Engineering',
+                 'In fact, the definition of innovation, is two-fold: (1) to introduce something new; and (2) to make changes in something established, especially by introducing new methods, ideas or products')">
+                <img src="/img/ece10.jpg" id="img_2" 
+                onClick="getID(this.src,'Dictionary on ECE',
+                'In fact, the definition of innovation, is two-fold: (1) to introduce something new; and (2) to make changes in something established, especially by introducing new methods, ideas or products')" value="10">
+                <img src="/img/ece11.jpg" id="img_3"
+                 onClick="getID(this.src,'Protocols and Secure Commerce',
+                 'A sequence of operations that ensure protection of data. ... See cryptography, information security, HTTPS, SSL, TLS, PCT and IPsec. Access Control Authenticates user identity. Authorizes access to specific resources based on permissions level and policies')" value="11">
+                <img src="/img/ece12.jpg" id="img_4"
+                 onClick="getID(this.src,'All new Electronics',
+                 'A sequence of operations that ensure protection of data. ... See cryptography, information security, HTTPS, SSL, TLS, PCT and IPsec. Access Control Authenticates user identity. Authorizes access to specific resources based on permissions level and policies')" value="12">
+                
+            </div>
+            </div>
+            
+          </div>
+          </div>
+          <script src="/js/ece.js"></script>
+    </body>
+</html>

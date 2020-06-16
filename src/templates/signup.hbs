@@ -1,0 +1,71 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="/css/signup.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <style>
+    #msg {
+    visibility: hidden;
+    min-width: 250px;
+    background-color:yellow;
+    color: #000;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    right: 30%;
+    top: 30px;
+    font-size: 17px;
+	margin-right:30px;
+}
+
+#msg.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {top: 0; opacity: 0;} 
+    to {top: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {top: 30px; opacity: 1;} 
+    to {top: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {top: 30px; opacity: 1;}
+    to {top: 0; opacity: 0;}
+}
+    </style>
+</head>
+
+<body>
+<div class="signup">
+
+    <form action = "/dem" method="post" name = "Form1"  onsubmit="return validno()">
+    <h2 style="color: #fff;">Sign Up</h2>
+    <input type="text" name="fname" placeholder="First name" id = "fuser"><br><br>
+    <input type="text" name="lname" placeholder="Last name" id = "luser"><br><br>
+    <input type="password" name="pass" placeholder="Password" id = "pass"><br><br>    
+    <input type="password" name="cpass" placeholder="Confirm Password" id="cpass"><br><br>   
+    <input type="text" name = "cemail" placeholder="Email address" id = "email"><br><br>  
+    <input type="submit" value="Sign up"><br><br>
+        Already have account?<a href="/login" style="text-decoration: none; font-family: 'Play', sans-serif; color: yellow;">&nbsp;Log In</a>
+    </form>
+    
+    </div>
+    
+    <script src="/js/login.js"></script>
+</body>
+</html>
+

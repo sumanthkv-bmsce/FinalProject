@@ -1,0 +1,76 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="/css/pic.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+</head>
+      
+      <body>
+          
+        <div class="menu-toggle" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="container">  
+            
+            {{>common}}
+
+            <marquee direction="right" class="dir">Welcome to EEE page</marquee>
+            
+            <div class="button_box2">
+                <form action="/getAllEEE"  class="form-wrapper-2 cf" method = "POST" onsubmit="return isValid()">
+            <input class="textHere" type="text" placeholder="Search here..." name="nameHere" required>
+            <input type="submit" class = "refreshSubmit" value="submit">
+                </form>
+            </div>
+
+            <div class="images">
+            <div class='popular'>
+            <div><h1 class="fontMe">Popular</h1>
+                <img src="/img/eee1.jpg" id="img_1"  
+                onClick="getID(this.src,'Electrical installation estimating cost',
+                'Electrical Estimators are typically employed by construction, electrical contracting, or project management companies to estimate the cost of electrical installations. They analyze blueprints to determine the electrical needs of various projects, provide solutions to increase profitability, and prepare project bids')" value="1">
+                <img src="/img/eee2.jpg" id="img_2" onClick="getID(this.src,'Electrical technology',
+                'It involves the design and development of high-voltage systems and components such as motors, generators, heaters, electrical power transmission and distribution systems, radio wave and optical systems, converters, and control systems for operating light and heavy machinery')" value="2">
+                <img src="/img/eee3.jpg" id="img_3" onClick="getID(this.src,'Electricl design',
+                'Electrical Designer Job Description. Electrical designers create electrical systems. Using their expertise on how electricity works, they come up with wiring and power distribution diagrams to fit the needs of individual projects. ... Homeowners, architects, and construction firms need their input for building projects.')" value="3">
+                <img src="/img/eee4.jpg" id="img_4" onClick="getID(this.src,'Power electronics'
+                'Power electronics is the application of solid-state electronics to the control and conversion of electric power. ... In modern systems, the conversion is performed with semiconductor switching devices such as diodes, thyristors, and power transistors such as the power MOSFET and IGBT.')" value="4">
+                
+            </div>
+             </div>  
+            <div class="favourites">
+                <div><h1 class="fontMe">Favourites</h1>
+                <img src="/img/eee5.jpg" id="img_1" value="5" 
+                onClick="getID(this.src,'Electrical machines',
+                'An electrical machine is a device which converts mechanical energy into electrical energy or vice versa. Electrical machines also include transformers, which do not actually make conversion between mechanical and electrical form but they convert AC current from one voltage level to another voltage level')">
+                <img src="/img/eee6.jpg" id="img_2" onClick="getID(this.src,'Control machines',
+                'Machine control. In civil engineering, machine control is used to accurately position earthwork machinery based on 3D design models and GPS systems, and thus aid machine operators to e.g. control the position of a road grader's blade.')" value="6">
+                <img src="/img/eee7.jpg" id="img_3" onClick="getID(this.src,'Circuit analysis',
+                'The general strategy of circuit analysis is to create and solve a system of independent equations. ... Circuit analysis, or solving a circuit, means figuring out voltages and currents in each element. Heres an overview of circuit analysis, with some context for the various tools and methods we use to analyze circuits.')" value="6">
+                <img src="/img/eee8.jpg" id="img_4" onClick="getID(this.src,'Electrical machines',
+                'The general strategy of circuit analysis is to create and solve a system of independent equations. ... Circuit analysis, or solving a circuit, means figuring out voltages and currents in each element. Heres an overview of circuit analysis, with some context for the various tools and methods we use to analyze circuits.')" value="8">
+                
+            </div>
+            </div>
+                
+                  <div class="reading">
+                <div><h1 class="fontMe">Reading</h1>
+                <img src="/img/eee9.jpg" id="img_1" value="9" onClick="getID(this.src,'Getting started with electronics',
+                'Basic electronics comprises the minimal “electronics components” that make up a part of everyday electronics equipment. These electronic components include resistors, transistors, capacitors, diodes, inductors and transformers. Powered by a battery, they are designed to work under certain physics laws and principles')">
+                <img src="/img/eee10.jpg" id="img_2" onClick="getID(this.src,'Optimization in EEE engg',
+                'Presented in a readable format, this book highlights fundamental concepts of advanced optimization used in electrical engineering. ... It then precedes with unconstrained optimization, convex programming, duality, linear matrix inequality, and intelligent optimization methods')" value="10">
+                <img src="/img/eee11.jpg" id="img_3" onClick="getID(this.src,'Power Systems analysis',
+                'Power system analysis is a branch of electrical engineering for designing entire power systems consisting of generators, transformers, capacitor banks, shunt reactances, transmission lines and so on')" value="11">
+                <img src="/img/eee12.jpg" id="img_4" onClick="getID(this.src,'basic electricity',
+                'Electricity. Electricity is the presence and flow of electric charge (electrons) in one direction. Using electricity we can transfer energy in ways that allow us to do common chores. Its best-known form is the flow of electrons through conductors such as copper wires.')" value="12">
+                
+            </div>
+            </div>
+            
+          </div>
+          </div>
+          <script src="/js/eee.js"></script>
+    </body>
+</html>

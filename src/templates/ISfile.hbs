@@ -1,0 +1,75 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="/css/pic.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+</head>
+      
+      <body>
+          
+        <div class="menu-toggle" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="container">  
+            
+            {{>common}}
+            
+            <marquee direction="right" class="dir">Welcome to ISE page</marquee>
+            <div class="button_box2">
+                <form action="/getAllIS"  class="form-wrapper-2 cf" method = "POST" onsubmit="return isValid()">
+            <input class="textHere" type="text" placeholder="Search here..." name="nameHere" required>
+            <input type="submit" class = "refreshSubmit" value="submit">
+                </form>
+            </div>
+
+            <div class="images">
+            <div class='popular'>
+            <div><h1 class="fontMe">Popular</h1>
+                <img src="/img/is1.jpg" id="img_1"  
+                onClick="getID(this.src,'The organization of information',
+                'Knowledge organization (KO), organization of knowledge, organization of information, or information organization is an intellectual discipline concerned with activities such as document description, indexing, and classification that serve to provide systems of representation and order for knowledge and information .')" value="1">
+                <img src="/img/is2.jpg" id="img_2"
+                 onClick="getID(this.src,'Geographic information science',
+                 'A geographic information system (GIS) is a computer system for capturing, storing, checking, and displaying data related to positions on Earths surface. By relating seemingly unrelated data, GIS can help individuals and organizations better understand spatial patterns and relationships')" value="2">
+                <img src="/img/is3.jpg" id="img_3" onClick="getID(this.src,'Intro to info science',
+                'This course is designed to provide an introduction to Information Science for students from a number of related disciplines. ... The course is intended to act as a forum for discussion of the many questions asked in information science -- a field o f study still being defined and developed.')" value="3">
+                <img src="/img/is4.jpg" id="img_4" onClick="getID(this.src,'Pattern recognition with ML',
+                'Pattern Recognition is an engineering application of Machine Learning. Machine Learning deals with the construction and study of systems that can learn from data, rather than follow only explicitly programmed instructions whereas Pattern recognition is the recognition of patterns and regularities in data')" value="4">
+                
+            </div>
+             </div>  
+            <div class="favourites">
+                <div><h1 class="fontMe">Favourites</h1>
+                <img src="/img/is5.jpg" id="img_1" value="5" onClick="getID(this.src,'Intro to Quantum Info Science',
+                'This book presents the basics of quantum information, e.g., foundation of quantum theory, quantum algorithms, quantum entanglement, quantum entropies, quantum coding, quantum error correction and quantum cryptography. ... In order to study quantum information, one usually has to study the foundation of quantum theory.')">
+                <img src="/img/is6.jpg" id="img_2" onClick="getID(this.src,'Design Science methodology',
+                'Design science (methodology) Design science is an outcome based information technology research methodology, which offers specific guidelines for evaluation and iteration within research projects')" value="6">
+                <img src="/img/is7.jpg" id="img_3" onClick="getID(this.src,'Into to Cataloging and classification',
+                'Newly updated, Introduction to Cataloging and Classification provides an introduction to descriptive cataloging based on contemporary standards, explaining the basic tenets to readers without previous experience, as well as to those who merely want a better understanding of the process as it exists today.')" value="6">
+                <img src="/img/is8.jpg" id="img_4" onClick="getID(this.src,'Quality management in libraries',
+                'Total Quality Management is a method by which management and employees can become involved in the continuous improvement of the production of goods and services. ... The quality of a library is defined and assessed from a perspective of different groups of people')" value="8">
+                
+            </div>
+            </div>
+                
+                  <div class="reading">
+                <div><h1 class="fontMe">Reading</h1>
+                <img src="/img/is9.jpg" id="img_1" value="9" onClick="getID(this.src,'Magic in CS',
+                'In the context of computer programming, magic is an informal term for abstraction; it is used to describe code that handles complex tasks while hiding that complexity to present a simple interface.')">
+                <img src="/img/is10.jpg" id="img_2" onClick="getID(this.src,'Physics for IS and ECE',
+                'The usage of Physics in ECE can be roughly divided into 4 parts: 1. Electron Devices, where you use quantum mechanics to understand the flow of electrons and holes in diodes and transistors. ... Power Electronics: Pretty much the same as Electron Devices, but you may or may not have this course as lots of colleg...')" value="10">
+                <img src="/img/is11.jpg" id="img_3" onClick="getID(this.src,'Design research in IS',
+                'Design research was originally constituted as primarily research into the process of design, developing from work in design methods, but the concept has been expanded to include research embedded within the process of design, including work concerned with the context of designing and research-based design practice.')" value="11">
+                <img src="/img/is12.jpg" id="img_4" onClick="getID(this.src,'Fundamental neuroscience',
+                'Fundamentals of Neuroscience is a three-course series that explores the structure and function of the nervous system—from the inner workings of a single nerve cell to the staggering complexity of the brain and the social interactions they enable')" value="12">
+                
+            </div>
+            </div>
+            
+          </div>
+          </div>
+          <script src="/js/ise.js"></script>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/results.css">
+		<style>
+			table { table-layout:fixed; }
+   			table td {word-wrap:break-word;}
+		</style>
+    </head>
+
+    <body>
+        <p id = "p1">{{title}}</p>
+        <p id = "p2">{{author}}</p>
+        <p id = "p3">{{pdf}}</p>
+        <p id="p4">{{amazon}}</p>
+        <marquee direction="right"><p id = "error">{{error}}</p></marquee>
+        
+        <div class="limiter">
+		<div class="container-table100">
+			<div class="wrap-table100">
+				<div class="table100 ver1 m-b-110">
+					<div class="table100-head">
+						<table>
+							<thead>
+								<tr class="row100 head">
+									<th class="cell100 column1">Name of the book</th>
+									<th class="cell100 column2">Name of the author</th>
+									<th class="cell100 column3">PDF</th>
+									<th class="cell100 column4">Amazon</th>
+								</tr>
+							</thead>
+						</table>
+					</div>
+
+					<div class="table100-body js-pscroll">
+						<table id = "insertNew">
+							<tbody>
+								<tr class="row100 body">
+									<td class="cell100 column1" >Don't be sad for the limited data</td>
+									<td class="cell100 column2"> Here we are working on that</td>
+									<td class="cell100 column3">Feel free to contact us</td>
+									<td class="cell100 column4">for any queries</td>
+									
+								</tr>
+							</tbody>
+						</table>
+					</div>
+			</div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+        <script src="/js/fetchResults.js"></script>
+    </body>
+</html>

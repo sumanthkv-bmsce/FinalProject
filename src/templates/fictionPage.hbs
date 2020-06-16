@@ -1,0 +1,89 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="/css/pic.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+</head>
+      
+      <body>
+          
+        <div class="menu-toggle" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="container">  
+            
+            {{>common}}
+
+            <marquee direction="right" class="dir">Welcome to Fictions page</marquee>
+            
+            <div class="button_box2">
+                <form action="/getFiction"  class="form-wrapper-2 cf" method = "POST" onsubmit="return isValid()">
+            <input class="textHere" type="text" placeholder="Search here..." name="nameHere" required>
+            <input type="submit" class = "refreshSubmit" value="submit">
+                </form>
+            </div>
+
+            
+            <div class="gallery-image">
+                <div class="img-box">
+                 <img src="/img/fic1.jpg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <a href = '/pic/leagues'><p>Fiction</p></a>
+                      <p class="opacity-low">Click to see more</p>
+                    </div>
+                  </div> 
+                </div>
+                <div class="img-box">
+                  <img src="/img/fic2.jpg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <p>Fiction</p>
+                      <p class="opacity-low">Click to see more</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="img-box">
+                  <img src="/img/fic3.jpg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <p>Fiction</p>
+                      <p class="opacity-low">Click to see more</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="img-box">
+                  <img src="/img/fic4.jpg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <p>Fiction</p>
+                      <p class="opacity-low">Landscape</p>
+                    </div>
+                  </div> 
+                </div>
+                <div class="img-box">
+                  <img src="/img/fic5.jpg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <p>Fiction</p>
+                      <p class="opacity-low">Cityscape</p>
+                    </div>
+                  </div> 
+                </div>
+                <div class="img-box">
+                  <img src="/img/fic6.jpg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <p>Fiction</p>
+                      <p class="opacity-low">Cinematic</p>
+                    </div>
+                  </div> 
+                </div>
+                </div>
+
+
+          <script src="/js/cse.js"></script>
+    </body>
+</html>

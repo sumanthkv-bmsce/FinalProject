@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="/css/login.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+ {{!-- <script>
+  function preventBack(){window.history.forward();}
+  setTimeout("preventBack()", 0);
+  window.onunload=function(){null};
+</script> --}}
+</head>
+
+<body>
+   <div class="signin">
+
+    <form action="/check" method="POST" name="Form" onsubmit="return validateForm()">
+    <h2 style="color:#fff;">Log In</h2>
+    <div id = "login-div">
+    <input type="text" name="username" placeholder="Username" id="email_field"/><br /><br />
+    <input type="password" name="password" placeholder="Password" id="password_field" /><br /><br />
+    <input type = "submit" value="Login"><br /><br />
+</div>
+<div id="container">
+<a href="/registeration" style=" margin-right:0px; font-size:13px; font-family:Tahoma, Geneva, sans-serif;">Reset password?</a>
+    <a href="/forgot" style=" margin-left:30px; font-size:13px; font-family:Tahoma, Geneva, sans-serif;">Forget password</a>
+    </div><br /><br /><br /><br /><br /><br />
+    Don't have account?<a href="/signup" style="font-family:'Play', sans-serif;">&nbsp;Sign Up</a>
+
+</form>
+    </div>
+    
+<script src="/js/login.js"></script> 
+</body>
+</html>

@@ -1,0 +1,81 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="/css/pic.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+</head>
+      
+      <body>
+          
+        <div class="menu-toggle" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="container">  
+            
+            {{>common}}
+
+            <marquee direction="right" class="dir">Welcome to CSE page</marquee>
+            
+            <div class="button_box2">
+                <form action="/getAll"  class="form-wrapper-2 cf" method = "POST" onsubmit="return isValid()">
+            <input class="textHere" type="text" placeholder="Search here..." name="nameHere" required>
+            <input type="submit" class = "refreshSubmit" value="submit">
+                </form>
+            </div>
+
+            <div class="images">
+            <div class='popular'>
+            <div><h1 class="fontMe">Popular</h1>
+                <img src="/img/Hacking.jpg" id="img_1" 
+                 onClick="getID(this.src,'Hacking the Way',
+                 'The Basics of Hacking and Penetration Testing serves as an introduction to the steps required to complete a penetration test or perform an ethical hack from beginning to end. This book makes ethical hacking and penetration testing easy – no prior hacking experience is required. It shows how to properly utilize and interpret the results of the modern-day hacking tools required to complete a penetration test.')" value="1">
+                <img src="/img/Algorithms%20to%20Live%20By.jpg" id="img_2"
+                 onClick="getID(this.src,'Algorithms to Live',
+                'An algorithm (pronounced AL-go-rith-um) is a procedure or formula for solving a problem, based on conducting a sequence of specified actions. A computer program can be viewed as an elaborate algorithm. In mathematics and computer science, an algorithm usually means a small procedure that solves a recurrent problem.')" value="2">
+                <img src="/img/Cloud%20Computing,%20A%20Practical%20Approach.jpg" id="img_3" 
+                onClick="getID(this.src,'Cloud Computing',
+                'Cloud computing is a type of computing that relies on shared computing resources rather than having local servers or personal devices to handle applications. In its most simple description, cloud computing is taking services  and moving them outside an organizations firewall.')" value="3">
+                <img src="/img/Learn%20Python%20the%20Hard%20Way.jpg" id="img_4" onClick="getID(this.src,'Learn Python the Hard Way',
+                'Python is an interpreted, high-level, general-purpose programming language. ... It supports multiple programming paradigms, including structured (particularly, procedural), object-oriented, and functional programming. Python is often described as a  language due to its comprehensive standard library.')" value="4">
+                
+            </div>
+             </div>  
+            <div class="favourites">
+                <div><h1 class="fontMe">Favourites</h1>
+                <img src="/img/Applied%20Cryptography%20Protocols,%20Algorithms%20and%20Source%20Code%20in%20C,%202ed.jpg" id="img_1" value="5"
+                 onClick="getID(this.src,'Applied Cryptography Algorithms',
+                 'Network Security & Cryptography is a concept to protect network and data transmission over wireless network. A network security system typically relies on layers of protection and consists of multiple components including networking monitoring and security software in addition to hardware and appliances.')">
+                <img src="/img/Java%20-%20The%20Complete%20Reference.jpg" id="img_2"
+                 onClick="getID(this.src,'Java the Complete reference',
+                 'Java is a high-level programming language developed by Sun Microsystems. It was originally designed for developing programs for set-top boxes and handheld devices, but later became a popular choice for creating web applications. The Java syntax is similar to C++, but is strictly an object-oriented programming language')" value="6">
+                <img src="/img/HTML%20and%20CSS%20Design%20and%20Build%20Websites.jpg" id="img_3"
+                 onClick="getID(this.src,'HTML and CSS Designs',
+                 'Search Results Featured snippet from the web Image result for html and css description HTML, HyperText Markup Language, gives content structure and meaning by defining that content as, for example, headings, paragraphs, or images. CSS, or Cascading Style Sheets, is a presentation language created to style the appearance of content—using, for example, fonts or colors')" value="6">
+                <img src="/img/Data%20Structures%20and%20Algorithms%20Made%20Easy%20Data%20Structures%20and%20Algorithmic%20Puzzles.jpg" id="img_4" 
+                onClick="getID(this.src,'DataStructures and Algorithms')" value="8">
+                
+            </div>
+            </div>
+                
+                  <div class="reading">
+                <div><h1 class="fontMe">Reading</h1>
+                <img src="/img/Hands-On%20Machine%20Learning%20with%20Scikit-Learn%20and%20Tensor%20Flow%20Concepts,%20Tools,%20and%20Techniques%20to%20Build%20Intelligent%20Systems.jpg" id="img_1" value="9"
+                 onClick="getID(this.src,'Learn Tensorflow and Techniques',
+                 'TensorFlow is an open source library for numerical computation and large-scale machine learning. TensorFlow bundles together a slew of machine learning and deep learning (aka neural networking) models and algorithms and makes them useful by way of a common metaphor')">
+                <img src="/img/Java%20-%20The%20Complete%20Reference.jpg" id="img_2"
+                 onClick="getID(this.src,'Java Complete Reference')" value="10">
+                <img src="/img/Cloud%20Computing,%20A%20Practical%20Approach.jpg" id="img_3" 
+                onClick="getID(this.src,'CLoud Computing')" value="11">
+                <img src="/img/Learn%20Python%20the%20Hard%20Way.jpg" id="img_4" 
+                onClick="getID(this.src,'Learn Python the hard way')" value="12">
+                
+            </div>
+            </div>
+            
+          </div>
+          </div>
+          <script src="/js/cse.js"></script>
+    </body>
+</html>

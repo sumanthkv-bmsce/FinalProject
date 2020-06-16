@@ -1,0 +1,123 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="/css/pic.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+</head>
+
+  <body>
+        <div class="menu-toggle" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="container">       
+            <nav>
+                <h1 class="brand"><a href="https://bmsce.ac.in">BM<span>S</span>CE</a></h1>
+                <div class="main_menu">
+                <ul>
+                    <li><a href="/pic">Home</a></li>    
+                    <li><a href="/aboutus">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a>
+                      <div class="sub_menu">    
+                        <ul>
+                          <li><div class="one"><a href = "/novels">Novels</a></div></li>
+                          <li><div class="two"><a href ="/comics">Comics</a></div></li>
+                          <li><div class="three"><a href = "/fiction">Fictions</a></div></li>
+                        </ul>
+                      </div>             
+                    <li><a href ="/login">LogOut</a></li>
+                </ul>
+              </div>
+            </nav>
+
+            <div class="button_box2">
+                <form action="/getAll"  class="form-wrapper-2 cf" method = "POST" onsubmit="return isValid()">
+            <input class="textHere" type="text" placeholder="Search here..." name="nameHere" required>
+            <input type="submit" class = "refreshSubmit" value="submit">
+                </form>
+            </div>
+            
+            <!--Pics start here-->
+        <div class="gallery-image">
+                <div class="img-box">
+                 <img src="/img/20,000%20Leagues%20Under%20the%20Sea.jpg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <a href = '/pic/leagues'><p>Fiction</p></a>
+                      <p class="opacity-low">Click to see more</p>
+                    </div>
+                  </div> 
+                </div>
+                <div class="img-box">
+                  <img src="/img/HTML%20and%20CSS%20Design%20and%20Build%20Websites.jpg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <p>Computer Science</p>
+                      <p class="opacity-low">Click to see more</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="img-box">
+                  <img src="/img/Data%20Structures%20and%20Algorithms%20Made%20Easy%20Data%20Structures%20and%20Algorithmic%20Puzzles.jpg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <p>Computer Science</p>
+                      <p class="opacity-low">Click to see more</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="img-box">
+                  <img src="/img/The%20Unofficial%20Guide%20to%20Ethical%20Hacking.jpg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <p>Road</p>
+                      <p class="opacity-low">Landscape</p>
+                    </div>
+                  </div> 
+                </div>
+                <div class="img-box">
+                  <img src="/img/Cloud%20Computing,%20A%20Practical%20Approach.jpg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <p>Sea</p>
+                      <p class="opacity-low">Cityscape</p>
+                    </div>
+                  </div> 
+                </div>
+                <div class="img-box">
+                  <img src="/img/Hands-On%20Machine%20Learning%20with%20Scikit-Learn%20and%20Tensor%20Flow%20Concepts,%20Tools,%20and%20Techniques%20to%20Build%20Intelligent%20Systems.jpg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <p>Vintage</p>
+                      <p class="opacity-low">Cinematic</p>
+                    </div>
+                  </div> 
+                </div>
+                </div>
+                
+                <div id="custom-select" style="width:260px;">
+  <select id = "options">
+    <option value="0">Select Branch:</option>
+    <option value="CSE">Computer Science</option>
+    <option value="ECE">Electronics and Communication</option>
+    <option value="Mech">Mechanical</option>
+    <option value="EEE">Electrical and Electronics</option>
+    <option value="IS">Information Science</option>
+    <option value="Civil">Civil</option>
+    <option value="Biotech">Biotechnology</option>
+    
+  </select>
+        <input type='submit' value="submit" id="submitMe">
+</div>
+        
+      </div>
+            
+        </div>
+      
+     
+   <script src="/js/login.js"></script> 
+</body>
+</html>
+

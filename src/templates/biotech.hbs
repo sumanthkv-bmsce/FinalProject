@@ -1,0 +1,80 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="/css/pic.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+</head>
+      
+      <body>
+          
+        <div class="menu-toggle" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="container">  
+            
+            {{>common}}
+
+            <marquee direction="right" class="dir">Welcome to Biotech page</marquee>
+            
+            <div class="button_box2">
+                <form action="/getAllBio"  class="form-wrapper-2 cf" method = "POST" onsubmit="return isValid()">
+            <input class="textHere" type="text" placeholder="Search here..." name="nameHere" required>
+            <input type="submit" class = "refreshSubmit" value="submit">
+                </form>
+            </div>
+
+            <div class="images">
+            <div class='popular'>
+            <div><h1 class="fontMe">Popular</h1>
+                <img src="/img/bio1.jpg" id="img_1"
+                  onClick="getID(this.src,'Introduction to Biotechnology',
+                  'Biotechnology is the use of an organism, or a component of an organism or other biological system, to make a product or process. Many forms of modern biotechnology rely on DNA technology. DNA technology is the sequencing, analysis, and cutting-and-pasting of DNA')" value="1">
+                <img src="/img/bio2.jpg" id="img_2"
+                 onClick="getID(this.src,'Omics technology',
+                 'Omics technologies are primarily aimed at the universal detection of genes (genomics), mRNA (transcriptomics), proteins (proteomics) and metabolites (metabolomics) in a specific biological sample. ... Mass spectrometry is the most common method used for the detection of analytes in proteomic and metabolomic research')" value="2">
+                <img src="/img/bio3.jpg" id="img_3" onClick="getID(this.src,'Applied molecular biotechnology',
+                'Covers animal models, pharmacogenomics, human tissue banking, and the molecular diagnosis of diseases such as cervical cancer, obesity, and diabetes. Examines the molecular aspects of viral diseases, production of industrial commodities using viral biotechnology, and biotechnological uses of magnetic nanoparticles.')" value="3">
+                <img src="/img/bio4.jpg" id="img_4" onClick="getID(this.src,'Biotechnology and Bioprocess',
+                'Biotechnology is a study about biological systems or living organisms to make or modify products or processes for specific use, such as in agriculture, food production, and medicine. ... In my own words, biotechnology is the science, while bioprocess is the engineering.')" value="4">
+                
+            </div>
+             </div>  
+            <div class="favourites">
+                <div><h1 class="fontMe">Favourites</h1>
+                <img src="/img/bio5.jpg" id="img_1" value="5" 
+                onClick="getID(this.src,'Plant biotechnology and genetic engineering',
+                'Plant Biotechnology. Plant biotechnology is a set of techniques used to adapt plants for specific needs or opportunities. ... Plant biotechnologies that assist in developing new varieties and traits include genetics and genomics, marker-assisted selection (MAS), and transgenic (genetic engineered) crops.')">
+                <img src="/img/bio6.jpg" id="img_2" onClick="getID(this.src,'Biochemical engineering',
+                'Biochemical engineering is a branch of chemical engineering which applies technological advancements to biological materials. Biochemical engineers combine knowledge of biology, chemistry and engineering to create products from raw materials and develop the processes for achieving this.')" value="6">
+                <img src="/img/bio7.jpg" id="img_3" onClick="getID(this.src,'Biotechnolgy valuation and investing',
+                'Think of a biotech company as a collection of one or more experimental drugs, each representing a potential market opportunity. The idea is to treat each promising drug as a mini-company within a portfolio. Using DCF analysis, you can determine what someone would be willing to pay for that drug portfolio')" value="6">
+                <img src="/img/bio8.jpg" id="img_4" onClick="getID(this.src,'Microbiology',
+                'Microbiology is the scientific study of these microorganisms. Microorganisms are those organisms that are too small to see with the naked eye and include things like bacteria, fungi, and viruses. ... Most of the microbes, or bacteria, in your body are meant to be there and are called resident bacteria.')" value="8">
+                
+            </div>
+            </div>
+                
+                  <div class="reading">
+                <div><h1 class="fontMe">Reading</h1>
+                <img src="/img/bio9.jpg" id="img_1" value="9" onClick="getID(this.src,'Engineering principles in biotechnolgy',
+                'Microbiology is the scientific study of these microorganisms. Microorganisms are those organisms that are too small to see with the naked eye and include things like bacteria, fungi, and viruses. ... Most of the microbes, or bacteria, in your body are meant to be there and are called resident bacteria.')">
+                <img src="/img/bio10.jpg" id="img_2" 
+                onClick="getID(this.src,'Syntetic biology',
+                'Microbiology is the scientific study of these microorganisms. Microorganisms are those organisms that are too small to see with the naked eye and include things like bacteria, fungi, and viruses. ... Most of the microbes, or bacteria, in your body are meant to be there and are called resident bacteria.')" value="10">
+                <img src="/img/bio11.jpg" id="img_3" 
+                onClick="getID(this.src,'Genetic engineering',
+                'Genetic engineering, the artificial manipulation, modification, and recombination of DNA or other nucleic acid molecules in order to modify an organism or population of organisms.')" value="11">
+                <img src="/img/bio12.jpg" id="img_4" 
+                onClick="getID(this.src,'Pharmaceutical Biotechnology',
+                'Genetic engineering, the artificial manipulation, modification, and recombination of DNA or other nucleic acid molecules in order to modify an organism or population of organisms.')" value="12">
+                
+            </div>
+            </div>
+            
+          </div>
+          </div>
+          <script src="/js/biotech.js"></script>
+    </body>
+</html>

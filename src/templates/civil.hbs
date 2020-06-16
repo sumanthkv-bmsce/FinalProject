@@ -1,0 +1,78 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="/css/pic.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+</head>
+      
+      <body>
+          
+        <div class="menu-toggle" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="container">  
+            
+            {{>common}}
+            
+            <marquee direction="right" class="dir">Welcome to Civil page</marquee>
+            
+            <div class="button_box2">
+                <form action="/getAllCivil"  class="form-wrapper-2 cf" method = "POST" onsubmit="return isValid()">
+            <input class="textHere" type="text" placeholder="Search here..." name="nameHere" required>
+            <input type="submit" class = "refreshSubmit" value="submit">
+                </form>
+            </div>
+
+            <div class="images">
+            <div class='popular'>
+            <div><h1 class="fontMe">Popular</h1>
+                <img src="/img/civ1.jpg" id="img_1"  
+                onClick="getID(this.src,'Advanced Construction technology',
+                'The term advanced construction technology covers a wide range of modern techniques and practices that encompass the latest developments in materials technology, design procedures, quantity surveying, facilities management, services, structural analysis and design, and management studies')" value="1">
+                <img src="/img/civ2.jpg" id="img_2"
+                 onClick="getID(this.src,'Materials for construction and Civil engg',
+                 'Building material is any material used for construction purpose such as materials for house building. Wood, cement, aggregates, metals, bricks, concrete, clay are the most common type of building material used in construction. The choice of these are based on their cost effectiveness for building projects.')" value="2">
+                <img src="/img/civ3.jpg" id="img_3" onClick="getID(this.src,'Basic Drawing and civil Engineers',
+                'A civil drawing, or site drawing, is a type of technical drawing that shows information about grading, landscaping, or other site details. These drawings are intended to give a clear picture of all things in a construction site to a civil engineer.')" value="3">
+                <img src="/img/civ4.jpg" id="img_4" onClick="getID(this.src,'System Analysis',
+                'SE is an integrated design method that can be described in many ways, depending on the branch or industry where it is applied. In this research, the definition of the International Council on SE (INCOSE) is used. INCOSE (2015) defines SE as ‘An interdisciplinary approach and means to enable the realisation of successful systems.')" value="4">
+                
+            </div>
+             </div>  
+            <div class="favourites">
+                <div><h1 class="fontMe">Favourites</h1>
+                <img src="/img/civ5.jpg" id="img_1" value="5" onClick="getID(this.src,'Analysis of Structures',
+                'Structural analysis is the determination of the effects of loads on physical structures and their components. Structures subject to this type of analysis include all that must withstand loads, such as buildings, bridges, aircraft and ships. ... Structural analysis is thus a key part of the engineering design of structures.')">
+                <img src="/img/civ6.jpg" id="img_2" onClick="getID(this.src,'Construction practices',
+                'Construction is a highly practical subject. ... Based around a series of full colour photographic sequences, augmented by carefully chosen line illustrations and text, Construction Practice provides students with a comprehensive overview of practical construction technology.')" value="6">
+                <img src="/img/civ7.jpg" id="img_3" onClick="getID(this.src,'Design of water and waste water treatment analysis',
+                'Construction is a highly practical subject. ... Based around a series of full colour photographic sequences, augmented by carefully chosen line illustrations and text, Construction Practice provides students with a comprehensive overview of practical construction technology.')" value="6">
+                <img src="/img/civ8.jpg" id="img_4" onClick="getID(this.src,'Civil engineering materials',
+                '
+A construction material is any material used in the construction industry. Examples: Concrete, cement, soil, stones, aggregates, plastics, and asphalt. The basic materials used in civil engineering applications or in construction projects are: Wood.')" value="8">
+                
+            </div>
+            </div>
+                
+                  <div class="reading">
+                <div><h1 class="fontMe">Reading</h1>
+                <img src="/img/civ9.jpg" id="img_1" value="9" onClick="getID(this.src,'Strength of materials',
+                '
+A construction material is any material used in the construction industry. Examples: Concrete, cement, soil, stones, aggregates, plastics, and asphalt. The basic materials used in civil engineering applications or in construction projects are: Wood.')">
+                <img src="/img/civ10.jpg" id="img_2" onClick="getID(this.src,'ManagingMeasurement risk',
+                'Common Methods of Measurement for Investment Risk Management. Risk management is a crucial process used to make investment decisions. The process involves identifying and analyzing the amount of risk involved in an investment, and either accepting that risk or mitigating it')" value="10">
+                <img src="/img/civ11.jpg" id="img_3" onClick="getID(this.src,'Building materrials',
+                'Building construction is the process of adding structure to real property. The vast majority of building construction projects are small renovations, such as addition of a room, or renovation of a bathroom. Often, the owner of the property acts as laborer, paymaster, and design team for the entire project')" value="11">
+                <img src="/img/civ12.jpg" id="img_4" onClick="getID(this.src,'Design of Isolated Structures',
+                'Building construction is the process of adding structure to real property. The vast majority of building construction projects are small renovations, such as addition of a room, or renovation of a bathroom. Often, the owner of the property acts as laborer, paymaster, and design team for the entire project')" value="12">
+                
+            </div>
+            </div>
+            
+          </div>
+          </div>
+          <script src="/js/civil.js"></script>
+    </body>
+</html>
